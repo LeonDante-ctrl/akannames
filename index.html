@@ -1,0 +1,34 @@
+<!DOCtype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <title>Akan translation</title>
+</head>
+<body>
+    <div id="container">
+        <section id="dialogue">
+            <h1>Ghanaian Akan names</h1>
+            <p>This right here will derive your ghanaian name translation which is a Ghanaian culture. This will do so as it takes the users birthday and calculates the day of the week they were born</p>
+            <p><strong>FIND YOUR GHANAIAN NAME</strong></p>
+        </section>
+        <section id="form">
+            <form name="form" onsubmit="calc()">
+                <p><input type="text" name="date" placeholder="MM/DD/YYYY" class="textbox"/></p>
+      //input remember to set parameters for selector classes indicated on your notepad//
+                <select id = "gender">
+                    <option value="female">female</option>
+                    <option value="male">male</option>
+                </select>
+                <p><input type="submit" value="Submit" onclick="calc(); return false;"></p>
+            </form>
+
+            <p id="showday"></p>
+            <h2 id="showakan"></h2>
+        </section>
+    </div>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
