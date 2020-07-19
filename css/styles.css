@@ -1,0 +1,11 @@
+body {
+    background-image: url("https://thumbs.dreamstime.com/b/national-flag-ghana-made-colored-smoke-isolated-black-background-124467343.jpg");
+    font-family: 'Akronim';font-size: 22px;
+}
+
+#container{
+    margin-left: 450px;
+    background-color: seagreen;
+    height: 680px;
+    width: 800px;
+}
