@@ -53,5 +53,21 @@ function calc(){
         return(alert("INVALID DATE! Please use 'MM/DD/YYYY' format"));
       }
     }
+    //birthday
+    var date = document.forms["form"]["date"].value;
+    var newDate = new Date (date);
+    // try to limit days to respond a certain way once made contact with an invalid input
+    var weekday = newDate.getDay();
 
-    
+    //gender
+    var genderInput = document.getElementById("gender");
+    var gender = genderInput.options[genderInput.selectedIndex].text;
+
+
+
+    var result = akanName(weekday, gender);
+    document.getElementById("displayDay").innerHTML = "You were born on " + newDate;
+    document.getElementById("displayAkan").innerHTML= "Your Akan name is " + result;
+
+    // console.log(akanName(weekDay, gender));
+    }
