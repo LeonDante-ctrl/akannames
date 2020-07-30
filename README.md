@@ -24,7 +24,7 @@ Leon Baraka.
 * None that have been accounted for so far
 
 ## License
-> Moringa school License &copy 2012 Dante
+> Moringa school License &copy 2020 Dante
 
 ## Collaborate
 To collaborate, hit your boy up on [Email](maxgamerdu@gmail.com)
