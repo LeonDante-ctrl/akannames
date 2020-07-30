@@ -3,7 +3,7 @@
 
 function calc(){
 
-  function akanName (weekday, gender){
+  function akanName (weekDay, gender){
     // male highlighting
       if (weekDay === 0 && gender === "male"){
         return ("Kwasi")
@@ -57,7 +57,7 @@ function calc(){
     var date = document.forms["form"]["date"].value;
     var newDate = new Date (date);
     // try to limit days to respond a certain way once made contact with an invalid input
-    var weekday = newDate.getDay();
+    var weekDay = newDate.getDay();
 
     //gender
     var genderInput = document.getElementById("gender");
@@ -65,9 +65,9 @@ function calc(){
 
 
 
-    var result = akanName(weekday, gender);
-    document.getElementById("displayDay").innerHTML = "You were born on " + newDate;
-    document.getElementById("displayAkan").innerHTML= "Your Akan name is " + result;
+    var result = akanName(weekDay, gender);
+    document.getElementById("displayDay").innerHTML = 'You were born on ' + newDate;
+    document.getElementById("displayAkan").innerHTML = 'Your Akan name is ' + result;
 
     // console.log(akanName(weekDay, gender));
     }
