@@ -1,8 +1,8 @@
 [Check it out] (https://leondante-ctrl.github.io/akannames/)
-#Description.
-##A web application that takes a user's birthday, calculates the day of the week they were born and then depending on their gender outputs their Akan Name.
+Description.
+#A web application that takes a user's birthday, calculates the day of the week they were born and then depending on their gender outputs their Akan Name.
 
-##Leon Baraka.
+Leon Baraka.
 
 ## BDD
 | Inputs |  Description |
