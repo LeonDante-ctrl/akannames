@@ -67,7 +67,7 @@ function calc(){
 
     var result = akanName(weekDay, gender);
     document.getElementById("displayDay").innerHTML = 'You were born on ' + newDate;
-    document.getElementById("displayAkan").innerHTML = 'Your Akan name is ' + result;
+    document.getElementById("displayDay").innerHTML = "You were born on " + newDate;
 
     // console.log(akanName(weekDay, gender));
     }
